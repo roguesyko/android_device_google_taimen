@@ -19,7 +19,7 @@ set -e
 VENDOR=google
 DEVICE=taimen
 
-INITIAL_COPYRIGHT_YEAR=2018
+INITIAL_COPYRIGHT_YEAR=2017
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -42,7 +42,6 @@ write_headers
 
 # The standard blobs
 write_makefiles "$MY_DIR"/lineage-proprietary-files.txt
-write_makefiles "$MY_DIR"/lineage-proprietary-vendor-files.txt
 
 # Finish
 write_footers
