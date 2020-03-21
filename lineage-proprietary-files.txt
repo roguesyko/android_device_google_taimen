@@ -188,6 +188,7 @@ product/lib64/libaptX_encoder.so
 -product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 product/priv-app/EuiccSupportPixel/esim0.img
 -product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
+-product/priv-app/GCS/GCS.apk;PRESIGNED
 -product/priv-app/HardwareInfo/HardwareInfo.apk
 -product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
 -product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
