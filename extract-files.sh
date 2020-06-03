@@ -51,7 +51,7 @@ fi
 # Initialize the helper
 setup_vendor "$DEVICE" "$VENDOR" "$GZOSP_ROOT"
 
-extract "$MY_DIR"/lineage-proprietary-files.txt "$SRC"
-extract "$MY_DIR"/lineage-proprietary-vendor-files.txt "$SRC"
+extract "$MY_DIR"/device-proprietary-files.txt "$SRC"
+extract "$MY_DIR"/device-proprietary-vendor-files.txt "$SRC"
 
 "$MY_DIR"/setup-makefiles.sh

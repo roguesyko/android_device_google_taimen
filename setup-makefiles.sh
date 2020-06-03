@@ -41,8 +41,8 @@ setup_vendor "$DEVICE" "$VENDOR" "$GZOSP_ROOT"
 write_headers
 
 # The standard blobs
-write_makefiles "$MY_DIR"/lineage-proprietary-files.txt
-write_makefiles "$MY_DIR"/lineage-proprietary-vendor-files.txt
+write_makefiles "$MY_DIR"/device-proprietary-files.txt
+write_makefiles "$MY_DIR"/device-proprietary-vendor-files.txt
 
 # Finish
 write_footers

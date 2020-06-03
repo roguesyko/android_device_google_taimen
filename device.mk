@@ -28,7 +28,7 @@ $(warning Overlays defined in '$(DEVICE_PACKAGE_OVERLAYS)' will override '$(PROD
 endif
 DEVICE_PACKAGE_OVERLAYS += \
      device/google/taimen/overlay \
-     device/google/taimen/overlay-lineage
+     device/google/taimen/overlay-gzosp
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += device/google/taimen/overlay-lineage/lineage-sdk
 
